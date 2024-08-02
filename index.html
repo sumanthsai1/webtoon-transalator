@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Screenshot and Translate</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Website Screenshot and Translate</h1>
+        <form id="url-form">
+            <input type="text" id="url-input" placeholder="Enter website URL" required>
+            <button type="submit">Capture Screenshot</button>
+        </form>
+        <div id="screenshot-container" style="display:none;">
+            <h2>Screenshot</h2>
+            <img id="screenshot" src="" alt="Screenshot">
+            <button id="crop-button">Crop Image</button>
+            <button id="translate-button" style="display:none;">Translate Image</button>
+        </div>
+        <div id="translated-container" style="display:none;">
+            <h2>Translated Screenshot</h2>
+            <img id="translated-image" src="" alt="Translated Image">
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
