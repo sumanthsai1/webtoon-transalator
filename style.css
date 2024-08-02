@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+#screenshot {
+    max-width: 100%;
+}
+
+#translated-image {
+    max-width: 100%;
+}
